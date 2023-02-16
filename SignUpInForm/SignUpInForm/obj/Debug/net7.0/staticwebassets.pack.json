@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\GitHub\\SignUpFormASP.NETCore\\SignUpInForm\\SignUpInForm\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\GitHub\\SignUpFormASP.NETCore\\SignUpInForm\\SignUpInForm\\wwwroot\\html\\SignIn.html",
+      "PackagePath": "staticwebassets\\html\\SignIn.html"
+    },
+    {
+      "Id": "D:\\GitHub\\SignUpFormASP.NETCore\\SignUpInForm\\SignUpInForm\\wwwroot\\html\\index.html",
+      "PackagePath": "staticwebassets\\html\\index.html"
+    },
+    {
+      "Id": "D:\\GitHub\\SignUpFormASP.NETCore\\SignUpInForm\\SignUpInForm\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "D:\\GitHub\\SignUpFormASP.NETCore\\SignUpInForm\\SignUpInForm\\wwwroot\\js\\signin.js",
+      "PackagePath": "staticwebassets\\js\\signin.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.SignUpInForm.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.SignUpInForm.props",
+      "PackagePath": "build\\SignUpInForm.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.SignUpInForm.props",
+      "PackagePath": "buildMultiTargeting\\SignUpInForm.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.SignUpInForm.props",
+      "PackagePath": "buildTransitive\\SignUpInForm.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

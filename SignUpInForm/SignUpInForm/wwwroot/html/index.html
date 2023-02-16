@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/style.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Sign Up</title>
+</head>
+<body>
+    <form id="SignUp-form" method="post" action="postuser" onsubmit="ValidateForm()">
+        <div class="circle"></div>
+        <div class="register-form-container">
+            <center><h1 class="form-title">Sign Up</h1></center>
+            <div class="form-fields">
+                <div class="form-field">
+                    <input id="fname" name="firstname" type="text" placeholder="First Name" maxlength="50">
+                </div>
+                <div class="form-field">
+                    <input id="lname" name="lastname" type="text" placeholder="Last Name" maxlength="50">
+                </div>
+                <div class="form-field">
+                    <input id="flname" name="fullname" type="text" placeholder="Full Name" maxlength="50">
+                </div>
+                <div class="form-field">
+                    <input id="email" name="email" type="email" placeholder="Email" maxlength="80">
+                </div>
+                <div class="form-field">
+                    <input id="password" name="password" type="password" placeholder="Password" minlength="10" maxlength="30">
+                </div>
+                <div class="form-field">
+                    <input id="confirm-password" name="password-confirm" type="password" placeholder="Password-Confirm" minlength="10" maxlength="30">
+                </div>
+            </div>
+            <div class="form-buttons">
+                <button id="signupbtn" type="submit" value="Send" class="button">Sign Up</button>
+            </div>
+        </div>
+    </form>
+    <script src="/js/main.js"></script>
+</body>
+</html>
