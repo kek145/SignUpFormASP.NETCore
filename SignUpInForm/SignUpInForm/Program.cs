@@ -1,10 +1,7 @@
 using System.Data;
-using System.Data.SqlClient;
-using Microsoft.Data.SqlClient;
+using System.Linq;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Builder;
-using System.Linq;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
